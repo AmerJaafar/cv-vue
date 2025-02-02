@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+@theme {
+  --font-Roboto: 'Roboto', sans-serif;
+
+  --color-light-blue: #add8e6;
+  --color-blue: #03a9f4;
+  --color-black-21: #081921;
+  --color-black-47: #003147;
+  --color-navy-blue: #003147;
+  --color-dark-gray: #333333;
+  --color-gray-90: #848c90;
+  --color-_2a7da2: #2a7da2;
+  --color-_848c99: #848c99;
+  --color-_light-wight: #f0f0f0;
+  --spacing-_62-5: 62.5rem;
+  --spacing-100vh: 100vh;
+
+  --shadow-box-10: 0 35px 55px rgb(0 0 0 / 10%);
+}
+@utility flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@utility grid-1fr-2fr {
+  grid-template-columns: 1fr 2fr;
+}
+@utility b-b-1-solid {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+@utility raduis {
+  border-radius: 25px 40px 50px 60px;
+}
+@utility grid-cols-150-1fr {
+  grid-template-columns: 150px 1fr;
+}
+@utility grid-cols-1-1fr {
+  grid-template-columns: repeat(1, 1fr);
+}

@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+.left_side {
+  @apply relative bg-black-47 p-10;
+
+  .profiletext {
+    @apply relative flex items-center flex-col pb-5 b-b-1-solid;
+    .imgbx {
+      @apply relative w-52 h-52  overflow-hidden;
+      img {
+        @apply absolute top-0 left-0 w-full h-full object-cover raduis;
+      }
+    }
+    h2 {
+      @apply text-white text-2xl font-bold mt-5;
+    }
+    span {
+      @apply text-sm font-light;
+    }
+  }
+  .cotactinfo {
+    @apply pt-10;
+    .title {
+      @apply text-white uppercase font-semibold tracking-wide mb-5;
+    }
+    ul {
+      @apply relative;
+      li {
+        @apply relative my-3 cursor-pointer;
+        .icon {
+          @apply inline-block w-10 text-lg text-blue;
+        }
+        .text {
+          @apply text-white font-light;
+        }
+      }
+    }
+  }
+  .cotactinfo.education {
+    ul {
+      @apply leading-6;
+      li {
+        @apply mb-4;
+        h4,
+        h5 {
+          @apply font-medium;
+        }
+        h5 {
+          @apply text-blue;
+        }
+        h4 {
+          @apply text-white;
+        }
+      }
+    }
+  }
+
+  .lang {
+    .title {
+      @apply text-white uppercase font-semibold tracking-wide mb-5;
+    }
+    ul {
+      @apply relative;
+      li {
+        @apply relative my-3 cursor-pointer;
+        .text {
+          @apply text-white font-light;
+        }
+      }
+    }
+    .percent {
+      @apply relative w-full h-2 bg-black-21 block mt-1 rounded-2xl;
+      div {
+        @apply absolute top-0 left-0 h-full bg-blue-500 rounded-2xl;
+      }
+    }
+  }
+}

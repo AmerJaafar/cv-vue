@@ -1,0 +1,16 @@
+
+  main {
+    @apply m-3 grid-cols-1-1fr;
+  }
+
+
+  .about .box {
+    flex-direction: column;
+  }
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
+  .skills .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+

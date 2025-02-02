@@ -1,0 +1,18 @@
+@import './scss/base.scss';
+
+@import './scss/leftSides.scss';
+@import './scss/rightSide.scss';
+@import './scss/media.scss';
+* {
+  @apply m-0 p-0 box-border font-Roboto no-underline text-inherit;
+}
+body {
+  @apply bg-light-blue flex-center-center min-h-100vh;
+}
+main {
+  @apply relative w-full max-w-.62-5 min-h-.62-5 m-12 bg-white grid grid-1fr-2fr shadow-box-10;
+}
+
+@media (max-width: 1000px) {
+  @import './scss/media.scss';
+}

@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+.right_side {
+  @apply relative bg-white p-10;
+  .about {
+    @apply mb-12;
+
+    .title2 {
+      @apply text-black-47 uppercase tracking-widest mb-3;
+    }
+    p {
+      @apply text-dark-gray;
+    }
+  }
+  .box {
+    @apply flex flex-row my-5;
+    .year_company {
+      @apply min-w-40;
+      h5 {
+        @apply uppercase font-semibold text-gray-90;
+      }
+    }
+  }
+  .text {
+    h4 {
+      @apply uppercase text-_2a7da2 text-base my-3;
+    }
+  }
+  .skills {
+    .box {
+      @apply relative w-full grid grid-cols-150-1fr;
+      h4 {
+        @apply uppercase text-_848c99 font-medium;
+      }
+      .percent {
+        @apply relative w-full h-3 text-_light-wight rounded-2xl;
+        div {
+          @apply absolute top-0 left-0 h-full bg-blue rounded-2xl;
+        }
+      }
+    }
+  }
+}
+
+
