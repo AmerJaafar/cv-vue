@@ -1,0 +1,89 @@
+{
+  "titles": {
+    "profile": "about me",
+    "experience": "experience",
+    "professionalSkills": "professional skills",
+    "education": "education",
+    "languages": "languages",
+    "contactInfo": "contact info"
+  },
+  "name": "Amer",
+  "lastName": "Jafar",
+  "jobTitle": "Front End Developer",
+  "tecnologi": "Vue.js",
+  "contact": [
+    {
+      "value": "05342947786",
+      "icone": "fa-phone"
+    },
+    {
+      "value": "aamerjaafar9@gmaile.cpm",
+      "icone": "fa-at"
+    },
+    {
+      "value": "turkey/istanbul",
+      "icone": "fa-location-dot"
+    }
+  ],
+  "education": [
+    {
+      "from": "2015",
+      "to": "2017",
+      "level": "Middle School",
+      "schoolName": "Islamic High School in Lattakia"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "percent": 50
+    },
+    {
+      "language": "Turkish",
+      "percent": 70
+    },
+    {
+      "language": "Arabic",
+      "percent": 90
+    }
+  ],
+  "about": "I am a Front End Developer with a passion for creating user-friendly and visually appealing interfaces. I",
+  "experience": [
+    {
+      "from": "2022",
+      "to": "2022",
+      "company": "sherif shalaby",
+      "jobTitle": "Front End Developer",
+      "description": "I worked as a Front End Developer at Company 1, where I was responsible for designing and developing the user interface of the company's website."
+    },
+    {
+      "from": "2022",
+      "to": "2024",
+      "company": "freelancer",
+      "jobTitle": "Front End Developer",
+      "description": "I worked as a Front End Developer at Company 2, where I was responsible for designing and developing the user interface of the company's website."
+    }
+  ],
+  "skills": [
+    {
+      "skill": "HTML5",
+      "percent": 90
+    },
+    {
+      "skill": "CSS3",
+      "percent": 80
+    },
+    {
+      "skill": "JavaScript",
+      "percent": 70
+    },
+    {
+      "skill": "vue",
+      "percent": 60
+    },
+    {
+      "skill": "tailwindcss",
+      "percent": 50
+    }
+  ]
+}

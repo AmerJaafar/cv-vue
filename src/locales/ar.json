@@ -1,0 +1,89 @@
+{
+  "titles": {
+    "profile": "نبذة عني",
+    "experience": "الخبرة",
+    "professionalSkills": "المهارات المهنية",
+    "education": "التعليم",
+    "languages": "اللغات",
+    "contactInfo": "معلومات الاتصال"
+  },
+  "name": "عامر",
+  "lastName": "جعفر",
+  "jobTitle": "مطور Front End",
+  "tecnologi": "Vue.js",
+  "contact": [
+    {
+      "value": "05342947786",
+      "icone": "fa-phone"
+    },
+    {
+      "value": "aamerjaafar9@gmaile.cpm",
+      "icone": "fa-at"
+    },
+    {
+      "value": "تركيا/إسطنبول",
+      "icone": "fa-location-dot"
+    }
+  ],
+  "education": [
+    {
+      "from": "2015",
+      "to": "2017",
+      "level": "المرحلة الإعدادية",
+      "schoolName": "المدرسة الثانوية الإسلامية في اللاذقية"
+    }
+  ],
+  "languages": [
+    {
+      "language": "الإنجليزية",
+      "percent": 50
+    },
+    {
+      "language": "التركية",
+      "percent": 70
+    },
+    {
+      "language": "العربية",
+      "percent": 90
+    }
+  ],
+  "about": "أنا مطور Front End شغوف بإنشاء واجهات مستخدم سهلة الاستخدام وجذابة بصريًا.",
+  "experience": [
+    {
+      "from": "2022",
+      "to": "2022",
+      "company": "شريف شلبي",
+      "jobTitle": "مطور Front End",
+      "description": "عملت كمطور Front End في شركة شريف شلبي، حيث كنت مسؤولاً عن تصميم وتطوير واجهة المستخدم لموقع الشركة."
+    },
+    {
+      "from": "2022",
+      "to": "2024",
+      "company": "مستقل",
+      "jobTitle": "مطور Front End",
+      "description": "عملت كمطور Front End كمستقل، حيث كنت مسؤولاً عن تصميم وتطوير واجهة المستخدم لمواقع الويب المختلفة."
+    }
+  ],
+  "skills": [
+    {
+      "skill": "HTML5",
+      "percent": 90
+    },
+    {
+      "skill": "CSS3",
+      "percent": 80
+    },
+    {
+      "skill": "JavaScript",
+      "percent": 70
+    },
+    {
+      "skill": "Vue.js",
+      "percent": 60
+    },
+    {
+      "skill": "Tailwind CSS",
+      "percent": 50
+    }
+  ]
+}
