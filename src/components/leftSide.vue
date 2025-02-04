@@ -7,7 +7,7 @@
         <img :src="img" alt="my imag" />
       </div>
       <h2>
-        {{ t(info.name) }} {{ t(info.lastName) }}<br /><span>{{ t(info.jobTitle) }}</span>
+        {{ info.name }} {{ info.lastName }}<br /><span>{{ info.jobTitle }}</span>
         <span>/ {{ info.tecnologi }} /</span>
       </h2>
     </div>
@@ -15,34 +15,34 @@
 
     <!--info-->
     <div class="cotactinfo">
-      <h3 class="title">{{ t('titles.contactInfo') }}</h3>
+      <h3 class="title">contact info</h3>
       <ul>
         <li v-for="(contact, i) in info.contact" :key="i">
           <span class="icon"><i :class="['fa - solid', contact.icone]"></i></span>
-          <span class="text">{{ t(contact.value) }}</span>
+          <span class="text">{{ contact.value }}</span>
         </li>
       </ul>
     </div>
 
     <!--education-->
     <div class="cotactinfo education">
-      <h3 class="title">{{ t('titles.education') }}</h3>
+      <h3 class="title">Education</h3>
       <ul>
         <li v-for="(education, i) in info.education" :key="i">
-          <h5>{{ t(education.from) }} - {{ t(education.to) }}</h5>
-          <h4>{{ t(education.level) }}</h4>
-          <h4>{{ t(education.schoolName) }}</h4>
+          <h5>{{ education.from }} - {{ education.to }}</h5>
+          <h4>{{ education.level }}</h4>
+          <h4>{{ education.schoolName }}</h4>
         </li>
       </ul>
     </div>
     <div class="contactinfo lang">
-      <h3 class="title">{{ t('titles.languages') }}</h3>
+      <h3 class="title">languages</h3>
 
       <ul>
         <li v-for="(languages, i) in info.languages" :key="i">
-          <span class="text">{{ t(languages.language) }}</span>
+          <span class="text">{{ languages.language }}</span>
           <span class="percent">
-            <div v-percent="languages.percent"></div>
+            <div :style="['width:' + languages.percent + '%']"></div>
           </span>
         </li>
       </ul>
@@ -51,11 +51,9 @@
   </div>
 </template>
 <script setup>
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
 import { ref } from 'vue'
 import imag from '@/assets/images/image.png'
 const img = ref(imag)
-import data from '@/locales/en.json'
+import data from '@/assets/data/info.json'
 const info = ref({ ...data })
 </script>
