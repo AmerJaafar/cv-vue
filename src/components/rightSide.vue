@@ -6,14 +6,14 @@ const info = ref(data)
 <template>
   <div class="right_side">
     <div class="about">
-      <h2 class="title2">profile</h2>
+      <h2 class="title2">ABOUT ME</h2>
       <p>
         {{ info.about }}
       </p>
     </div>
 
     <div class="about">
-      <h2 class="title2">experience</h2>
+      <h2 class="title2">PROFFESSIONAL EXPERIENCE</h2>
       <div class="box" v-for="(experience, index) in info.experience" :key="index">
         <div class="year_company">
           <h5>{{ experience.from }} - {{ experience.to }}</h5>

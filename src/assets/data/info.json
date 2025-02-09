@@ -1,81 +1,97 @@
 {
-    "name": "Amer",
-    "lastName": "Jafar",
-    "jobTitle": "Front End Developer",
-    "tecnologi": "Vue.js",
-    "contact": [
-        {
-            "value": "05342947786",
-            "icone": "fa-phone"
-        },
-        {
-            "value": "aamerjaafar9@gmaile.cpm",
-            "icone": "fa-at"
-        },
-        {
-            "value": "turkey/istanbul",
-            "icone": "fa-location-dot"
-        }
-    ],
-    "education": [
-        {
-            "from": "2015",
-            "to": "2017",
-            "level": "Middle School",
-            "schoolName": "Islamic High School in Lattakia"
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "percent": 50
-        },
-        {
-            "language": "Turkish",
-            "percent": 70
-        },
-        {
-            "language": "Arabic",
-            "percent": 90
-        }
-    ],
-    "about": "I am a Front End Developer with a passion for creating user-friendly and visually appealing interfaces. I",
-    "experience": [
-        {
-            "from": "2022",
-            "to": "2022",
-            "company": "sherif shalaby",
-            "jobTitle": "Front End Developer",
-            "description": "I worked as a Front End Developer at Company 1, where I was responsible for designing and developing the user interface of the company's website."
-        },
-        {
-            "from": "2022",
-            "to": "2024",
-            "company": "freelancer",
-            "jobTitle": "Front End Developer",
-            "description": "I worked as a Front End Developer at Company 2, where I was responsible for designing and developing the user interface of the company's website."
-        }
-    ],
-    "skills": [
-        {
-            "skill": "HTML5",
-            "percent": 90
-        },
-        {
-            "skill": "CSS3",
-            "percent": 80
-        },
-        {
-            "skill": "JavaScript",
-            "percent": 70
-        },
-        {
-            "skill": "vue",
-            "percent": 60
-        },
-        {
-            "skill": "tailwindcss",
-            "percent": 50
-        }
-    ]
+  "userInfo": [
+    {
+      "name": "Amer",
+      "lastName": "Jafar",
+      "jobTitle": "Front End Developer",
+      "tecnologi": "Vue.js"
+    }
+  ],
+  "contact": [
+    {
+      "value": "05342947786",
+      "icone": "fa-phone"
+    },
+    {
+      "value": "aamerjaafar9@gmail.com",
+      "icone": "fa-at"
+    },
+    {
+      "value": "turkey /istanbul",
+      "icone": "fa-location-dot"
+    }
+  ],
+  "education": [
+    {
+      "from": "2015",
+      "to": "2017",
+      "level": "Middle School",
+      "schoolName": "Islamic High School in Lattakia"
+    },
+    {
+      "from": "2023",
+      "to": "2023",
+      "level": "Work smarter, not harder: Personal and professional time management",
+      "schoolName": "Coursera /University of California, Irvine/"
+    },
+    {
+      "from": "2023",
+      "to": "2023",
+      "level": "Front End Developer course ",
+      "schoolName": "Coursera /META/"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "percent": 50
+    },
+    {
+      "language": "Turkish",
+      "percent": 70
+    },
+    {
+      "language": "Arabic",
+      "percent": 90
+    }
+  ],
+  "about": "started my journey as a Front End Developer 2 year, And i have a desire to seek to learn the basic Backend developer to be Full Stack developer",
+  "experience": [
+    {
+      "from": "2022",
+      "to": "2022",
+      "company": "SHERIF SHALABY COMPANY",
+      "jobTitle": "Front End Developer",
+      "description": "I worked at Sherif Shalaby's company as a trainee front-end developer for three months"
+    },
+    {
+      "from": "2022",
+      "to": "2024",
+      "company": "freelancer",
+      "jobTitle": "Front End Developer",
+      "description": "I have created many freelance projects and ventures for college students as a freelancer"
+    }
+  ],
+  "skills": [
+    {
+      "skill": "HTML5",
+      "percent": 90
+    },
+    {
+      "skill": "CSS3",
+      "percent": 80
+    },
+    {
+      "skill": "JavaScript",
+      "percent": 70
+    },
+    {
+      "skill": "vue",
+      "percent": 60
+    },
+    {
+      "skill": "tailwindcss",
+      "percent": 70
+    }
+  ]
 }

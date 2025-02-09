@@ -6,16 +6,16 @@
       <div class="imgbx">
         <img :src="img" alt="my imag" />
       </div>
-      <h2>
-        {{ info.name }} {{ info.lastName }}<br /><span>{{ info.jobTitle }}</span>
-        <span>/ {{ info.tecnologi }} /</span>
+      <h2 v-for="(userInfo, i) in info.userInfo" :key="i">
+        {{ userInfo.name }} {{ userInfo.lastName }}<br /><span>{{ userInfo.jobTitle }}</span>
+        <span> /{{ userInfo.tecnologi }}/ </span>
       </h2>
     </div>
     <!--profile text ended-->
 
     <!--info-->
     <div class="cotactinfo">
-      <h3 class="title">contact info</h3>
+      <h3 class="title">CONTACT INFORMATION</h3>
       <ul>
         <li v-for="(contact, i) in info.contact" :key="i">
           <span class="icon"><i :class="['fa - solid', contact.icone]"></i></span>
@@ -26,7 +26,7 @@
 
     <!--education-->
     <div class="cotactinfo education">
-      <h3 class="title">Education</h3>
+      <h3 class="title">EDUCATION AND COURSES</h3>
       <ul>
         <li v-for="(education, i) in info.education" :key="i">
           <h5>{{ education.from }} - {{ education.to }}</h5>
@@ -53,7 +53,9 @@
 <script setup>
 import { ref } from 'vue'
 import imag from '@/assets/images/image.png'
+
 const img = ref(imag)
+
 import data from '@/assets/data/info.json'
 const info = ref({ ...data })
 </script>
